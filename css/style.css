@@ -1,0 +1,23 @@
+body{
+    
+    display :center;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    font-family: 'Pattaya',cursive;
+    text-shadow: 3px 2px darkblue;
+    
+ 
+
+ }
+header {
+  background-color:lightgray;
+  text-align: center;
+  border-style: groove;
+  border-width: 0px;
+  border-radius: 15px
+
+
+}
+
+

@@ -1,29 +1,44 @@
 body{
-    
-    display :center;
-    font-size: 2em;
-    color: yellow;
-    text-align: center;
-    font-family: 'Pattaya',cursive;
-    text-shadow: 3px 2px darkblue;
-
- 
+  background-image: url("/cst336-hw3/img/isaac-quesada-dZYI4ga2eUA-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-color: #464646;
+  
 }
 
 header {
-  background-color:lightgray;
+ 
+  padding: 0.5px;
   text-align: center;
-  border-style: groove;
-  border-width: 0px;
-  border-radius: 15px
-
-
-}
-.style{
-   
-   color: white;
+  background: #9c9a9a;
   
+  opacity:0.5;
+  color: rgb(190, 42, 42);
+  font-size: 30px;
 }
+.container{
+
+display: center;
+font-size: 35px;
+color: #b41b1b;
+
+text-align: center;
+font-family: 'Playball', cursive;
+    
+box-shadow: rgba(243, 242, 242, 0.25) 0px 0px`5px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+footer {
+ 
+  background-size: cover;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+
+}
+
 

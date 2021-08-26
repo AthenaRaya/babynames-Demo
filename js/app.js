@@ -22,13 +22,9 @@
                 
                 let r = results[0]
              
-               $("#babyname").html(r.name + " is your name  "); 
-               $("#gender").html(r.name + " gender is:  " + r.gender);
-               
-            //   // #1
-            //   for (let i = 0; i < r.usages.length; i++) {
-            //       let usage = r.usages[i]
-            //   }
+               $("#babyname").html("Your beautiful name is " + r.name ); 
+               $("#gender").html(" The name " + r.name + " gender is:  " + r.gender);
+            
                
                let usageHtml = ""
                
@@ -37,23 +33,18 @@
                     console.table(usage) // result[0].usages[i]
                     
                     let { usage_full, usage_gender } = usage
-                    // usageHtml += "<div>" + usage_full + ", " + usage_gender + "</div>"
+                    
                     usageHtml += `
                         <div>
                             ${usage_full}
                         </div>
                     `
                     
-                    // ${} = template
-                    // `` = template string
+                  
                }
                
-               // result[0].usages[i].usage_full
-               // result[0].usages[i].usage_gender
-               // result[0]["usages"][i]["usage_full"]
                
-               
-               $("#usages").html("Behind the name is:\n " + usageHtml);
+               $("#usages").html("Behind the name of " + r.name + " is" + usageHtml);
         
           } // success
       
